@@ -21,7 +21,7 @@ displayWeather:function(data) {
     const {speed}=data.wind;
     
 
-    document.querySelector(".city").innerText= "weather in" + name;
+    document.querySelector(".city").innerText= "weather in" +  " " +name;
     document.querySelector(".description").innerText= description;
     document.querySelector(".temperature").innerText= temp+ " ºC ";
     document.querySelector(".humidity").innerText= " + Humidity:" + humidity + " % ";
