@@ -32,7 +32,7 @@ search : function (){
     this.fetchweather(
         document.querySelector (".search-bar").value);
     
-},
+},git
      
 };
 document
