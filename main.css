@@ -4,14 +4,26 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0px;
-    background: #222;
+    background: rgb(9, 156, 161);
 }
 .card{
-    background: #eaeaea;
+    background: #2538a5;
     padding: 2em;
-    border-radius: 100px;
-    width: 80%;
+    border-radius: 30px;
+    width: 100%;
     max-width: 420px;
-    height: 300px;
     margin: 1em;
+}
+button{
+    background-color: rgb(200, 209, 209);
+        border-radius: 30%;
+        border: 1px solid rgb(38, 40, 168);
+        
+}
+searchbar{
+    display: flex;
+    outline: none;
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
 }
